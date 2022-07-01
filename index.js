@@ -28,7 +28,7 @@ function fertineBox() {
     boxFertine.style.display = "none";
 }
 
-function maranhao(){
+function maranhao() {
     var MA = document.getElementById("MA");
     var PI = document.getElementById("PI");
     var PA = document.getElementById("PA");
@@ -41,7 +41,7 @@ function maranhao(){
     boxMaranhao.style.display = "block";
 }
 
-function maranhaoBox(){
+function maranhaoBox() {
     var MA = document.getElementById("MA");
     var PI = document.getElementById("PI");
     var PA = document.getElementById("PA");
@@ -54,7 +54,7 @@ function maranhaoBox(){
     boxMaranhao.style.display = "none";
 }
 
-function fertial(){
+function fertial() {
     var AL = document.getElementById("AL");
     var CE = document.getElementById("CE");
     var RN = document.getElementById("RN");
@@ -64,7 +64,8 @@ function fertial(){
     RN.classList.add("fill_svg");
     boxFertial.style.display = "block";
 }
-function fertialBox(){
+
+function fertialBox() {
     var AL = document.getElementById("AL");
     var CE = document.getElementById("CE");
     var RN = document.getElementById("RN");
@@ -73,45 +74,45 @@ function fertialBox(){
     CE.classList.remove("fill_svg");
     RN.classList.remove("fill_svg");
     boxFertial.style.display = "none";
-}   
-
-function matogrosso(){
-    var MT = document.getElementById("MT");
-    var boxMatogrosso = document.getElementById("boxMatogrosso");
-    MT.classList.add("fill_svg"); 
-    boxMatogrosso.style.display = "block"; 
 }
 
-function matogrossoBox(){
+function matogrosso() {
     var MT = document.getElementById("MT");
     var boxMatogrosso = document.getElementById("boxMatogrosso");
-    MT.classList.remove("fill_svg"); 
-    boxMatogrosso.style.display = "none"; 
+    MT.classList.add("fill_svg");
+    boxMatogrosso.style.display = "block";
 }
 
-function fertigran(){
+function matogrossoBox() {
+    var MT = document.getElementById("MT");
+    var boxMatogrosso = document.getElementById("boxMatogrosso");
+    MT.classList.remove("fill_svg");
+    boxMatogrosso.style.display = "none";
+}
+
+function fertigran() {
     var MG = document.getElementById("MG");
     var GO = document.getElementById("GO");
     var SP = document.getElementById("SP");
     var boxFertigran = document.getElementById("boxFertigran");
-    MG.classList.add("fill_svg"); 
-    GO.classList.add("fill_svg"); 
-    SP.classList.add("fill_svg"); 
+    MG.classList.add("fill_svg");
+    GO.classList.add("fill_svg");
+    SP.classList.add("fill_svg");
     boxFertigran.style.display = "block";
 }
 
-function fertigranBox(){
+function fertigranBox() {
     var MG = document.getElementById("MG");
     var GO = document.getElementById("GO");
     var SP = document.getElementById("SP");
     var boxFertigran = document.getElementById("boxFertigran");
-    MG.classList.remove("fill_svg"); 
-    GO.classList.remove("fill_svg"); 
-    SP.classList.remove("fill_svg"); 
+    MG.classList.remove("fill_svg");
+    GO.classList.remove("fill_svg");
+    SP.classList.remove("fill_svg");
     boxFertigran.style.display = "none";
 }
 
-function fertinor(){
+function fertinor() {
     var BA = document.getElementById("BA");
     var SE = document.getElementById("SE");
     var AL = document.getElementById("AL");
@@ -119,16 +120,16 @@ function fertinor(){
     var GO = document.getElementById("GO");
     var TO = document.getElementById("TO");
     var boxFertinor = document.getElementById("boxFertinor");
-    BA.classList.add("fill_svg"); 
-    SE.classList.add("fill_svg"); 
-    AL.classList.add("fill_svg"); 
-    MG.classList.add("fill_svg"); 
-    GO.classList.add("fill_svg"); 
+    BA.classList.add("fill_svg");
+    SE.classList.add("fill_svg");
+    AL.classList.add("fill_svg");
+    MG.classList.add("fill_svg");
+    GO.classList.add("fill_svg");
     TO.classList.add("fill_svg");
-    boxFertinor.style.display = "block"; 
+    boxFertinor.style.display = "block";
 }
 
-function fertinorBox(){
+function fertinorBox() {
     var BA = document.getElementById("BA");
     var SE = document.getElementById("SE");
     var AL = document.getElementById("AL");
@@ -136,74 +137,74 @@ function fertinorBox(){
     var GO = document.getElementById("GO");
     var TO = document.getElementById("TO");
     var boxFertinor = document.getElementById("boxFertinor");
-    BA.classList.remove("fill_svg"); 
-    SE.classList.remove("fill_svg"); 
-    AL.classList.remove("fill_svg"); 
-    MG.classList.remove("fill_svg"); 
-    GO.classList.remove("fill_svg"); 
+    BA.classList.remove("fill_svg");
+    SE.classList.remove("fill_svg");
+    AL.classList.remove("fill_svg");
+    MG.classList.remove("fill_svg");
+    GO.classList.remove("fill_svg");
     TO.classList.remove("fill_svg");
-    boxFertinor.style.display = "none"; 
+    boxFertinor.style.display = "none";
 }
 
-function piratini(){
+function piratini() {
     var RS = document.getElementById("RS");
     var SC = document.getElementById("SC");
     var boxPiratini = document.getElementById("boxPiratini");
-    RS.classList.add("fill_svg"); 
+    RS.classList.add("fill_svg");
     SC.classList.add("fill_svg");
-    boxPiratini.style.display = "block"; 
+    boxPiratini.style.display = "block";
 }
 
-function piratiniBox(){
+function piratiniBox() {
     var RS = document.getElementById("RS");
     var SC = document.getElementById("SC");
     var boxPiratini = document.getElementById("boxPiratini");
-    RS.classList.remove("fill_svg"); 
+    RS.classList.remove("fill_svg");
     SC.classList.remove("fill_svg");
-    boxPiratini.style.display = "none"; 
+    boxPiratini.style.display = "none";
 }
 
-function sudeste(){
+function sudeste() {
     var ES = document.getElementById("ES");
     var RJ = document.getElementById("RJ");
     var MG = document.getElementById("MG");
     var boxSudeste = document.getElementById("boxSudeste");
-    ES.classList.add("fill_svg"); 
+    ES.classList.add("fill_svg");
     RJ.classList.add("fill_svg");
     MG.classList.add("fill_svg");
     boxSudeste.style.display = "block";
 }
 
-function sudesteBox(){
+function sudesteBox() {
     var ES = document.getElementById("ES");
     var RJ = document.getElementById("RJ");
     var MG = document.getElementById("MG");
     var boxSudeste = document.getElementById("boxSudeste");
-    ES.classList.remove("fill_svg"); 
+    ES.classList.remove("fill_svg");
     RJ.classList.remove("fill_svg");
     MG.classList.remove("fill_svg");
     boxSudeste.style.display = "none";
 }
 
-function bandeirantes(){
+function bandeirantes() {
     var SP = document.getElementById("SP");
     var MS = document.getElementById("MS");
     var boxBandeirantes = document.getElementById("boxBandeirantes");
-    SP.classList.add("fill_svg"); 
+    SP.classList.add("fill_svg");
     MS.classList.add("fill_svg");
     boxBandeirantes.style.display = "block";
 }
 
-function bandeirantesBox(){
+function bandeirantesBox() {
     var SP = document.getElementById("SP");
     var MS = document.getElementById("MS");
     var boxBandeirantes = document.getElementById("boxBandeirantes");
-    SP.classList.remove("fill_svg"); 
+    SP.classList.remove("fill_svg");
     MS.classList.remove("fill_svg");
     boxBandeirantes.style.display = "none";
 }
 
-function nordeste(){
+function nordeste() {
     var BA = document.getElementById("BA");
     var MG = document.getElementById("MG");
     var GO = document.getElementById("GO");
@@ -215,7 +216,8 @@ function nordeste(){
     TO.classList.add("fill_svg");
     boxNordeste.style.display = "block";
 }
-function nordesteBox(){
+
+function nordesteBox() {
     var BA = document.getElementById("BA");
     var MG = document.getElementById("MG");
     var GO = document.getElementById("GO");
@@ -228,7 +230,7 @@ function nordesteBox(){
     boxNordeste.style.display = "none";
 }
 
-function parana(){
+function parana() {
     var SP = document.getElementById("SP");
     var PR = document.getElementById("PR");
     var SC = document.getElementById("SC");
@@ -245,7 +247,7 @@ function parana(){
     boxParana.style.display = "block";
 }
 
-function paranaBox(){
+function paranaBox() {
     var SP = document.getElementById("SP");
     var PR = document.getElementById("PR");
     var SC = document.getElementById("SC");
