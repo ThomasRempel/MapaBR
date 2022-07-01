@@ -1,2 +1,4 @@
 # MapaBR
-Mapa feito em html, css e js para site da fertipar
+
+
+Código em svg, html, css e JS para criar um mapa interativo para o site da fertipar.
