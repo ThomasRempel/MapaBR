@@ -1,3 +1,6 @@
+#mapaBr{
+    display: block;
+}
 .fill_svg {
     fill: #5A5A5A !important;
 }
@@ -8,7 +11,6 @@
 
 svg {
     width: 100%;
-	
 }
 
 .svg-icon {
@@ -21,12 +23,15 @@ svg {
     display: none;
     background: #fff;
     text-align: center;
-    position: relative;
-    margin: -500px 70% 0px auto;
     width: 190px;
     box-shadow: 0px 0px 10px #333;
     padding: 20px;
     border-radius: 10px;
+    /* posição */
+    position: absolute;
+    top:400px;
+    left:25%;
+    
 }
 
 .img_box {
