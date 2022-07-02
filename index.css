@@ -9,8 +9,9 @@
     display: none;
 }
 
-svg {
+.mapasvg {
     width: 100%;
+    margin:1000px 0;
 }
 
 .svg-icon {
@@ -24,13 +25,14 @@ svg {
     background: #fff;
     text-align: center;
     width: 190px;
+    height: max-content;
     box-shadow: 0px 0px 10px #333;
     padding: 20px;
     border-radius: 10px;
     /* posição */
     position: absolute;
-    top:400px;
-    left:25%;
+    top:1400px;
+    left:22%;
     
 }
 
