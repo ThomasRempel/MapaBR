@@ -187,3 +187,11 @@ svg {
 .flag.fertine ~ .pinsudeste{
     display: none;
 }
+
+.classe_nome{
+    display: none;
+}
+
+.classe_nome_appear{
+    display:block;
+}
