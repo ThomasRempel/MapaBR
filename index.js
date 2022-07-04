@@ -10,7 +10,12 @@ function fertine() {
     RN.classList.add("fill_svg");
     CE.classList.add("fill_svg");
     PI.classList.add("fill_svg");
+    if(boxFertine.style.display == "block"){
+        return
+    }
     boxFertine.style.display = "block";
+    var pinFlag = document.querySelector('.flag');
+    pinFlag.classList.toggle('fertine')
 }
 
 function fertineBox() {
@@ -25,6 +30,9 @@ function fertineBox() {
     RN.classList.remove("fill_svg");
     CE.classList.remove("fill_svg");
     PI.classList.remove("fill_svg");
+    var pinFlag = document.querySelector('.flag');
+    pinFlag.classList.toggle('fertine')
+    
     boxFertine.style.display = "none";
 }
 
@@ -38,7 +46,12 @@ function maranhao() {
     PI.classList.add("fill_svg");
     PA.classList.add("fill_svg");
     TO.classList.add("fill_svg");
+    if(boxMaranhao.style.display == "block"){
+        return
+    }
     boxMaranhao.style.display = "block";
+    var pinFlag = document.querySelector('.flag');
+    pinFlag.classList.toggle('maranhao')
 }
 
 function maranhaoBox() {
@@ -51,6 +64,9 @@ function maranhaoBox() {
     PI.classList.remove("fill_svg");
     PA.classList.remove("fill_svg");
     TO.classList.remove("fill_svg");
+    var pinFlag = document.querySelector('.flag');
+    pinFlag.classList.toggle('maranhao')
+    
     boxMaranhao.style.display = "none";
 }
 
@@ -62,7 +78,12 @@ function fertial() {
     AL.classList.add("fill_svg");
     CE.classList.add("fill_svg");
     RN.classList.add("fill_svg");
+    if(boxFertial.style.display == "block"){
+        return
+    }
     boxFertial.style.display = "block";
+    var pinFlag = document.querySelector('.flag');
+    pinFlag.classList.toggle('fertial')
 }
 
 function fertialBox() {
@@ -73,20 +94,35 @@ function fertialBox() {
     AL.classList.remove("fill_svg");
     CE.classList.remove("fill_svg");
     RN.classList.remove("fill_svg");
+    var pinFlag = document.querySelector('.flag');
+    pinFlag.classList.toggle('fertial')
+    
     boxFertial.style.display = "none";
 }
 
 function matogrosso() {
+    var PR = document.getElementById("PR");
     var MT = document.getElementById("MT");
     var boxMatogrosso = document.getElementById("boxMatogrosso");
     MT.classList.add("fill_svg");
+    PR.classList.add("fill_svg");
+    if(boxMatogrosso.style.display == "block"){
+        return
+    }
     boxMatogrosso.style.display = "block";
+    var pinFlag = document.querySelector('.flag');
+    pinFlag.classList.toggle('matogrosso')
 }
 
 function matogrossoBox() {
+    var PR = document.getElementById("PR");
     var MT = document.getElementById("MT");
     var boxMatogrosso = document.getElementById("boxMatogrosso");
     MT.classList.remove("fill_svg");
+    PR.classList.remove("fill_svg");
+    var pinFlag = document.querySelector('.flag');
+    pinFlag.classList.toggle('matogrosso')
+    
     boxMatogrosso.style.display = "none";
 }
 
@@ -98,7 +134,12 @@ function fertigran() {
     MG.classList.add("fill_svg");
     GO.classList.add("fill_svg");
     SP.classList.add("fill_svg");
+    if(boxFertigran.style.display == "block"){
+        return
+    }
     boxFertigran.style.display = "block";
+    var pinFlag = document.querySelector('.flag');
+    pinFlag.classList.toggle('fertigran')
 }
 
 function fertigranBox() {
@@ -109,6 +150,9 @@ function fertigranBox() {
     MG.classList.remove("fill_svg");
     GO.classList.remove("fill_svg");
     SP.classList.remove("fill_svg");
+    var pinFlag = document.querySelector('.flag');
+    pinFlag.classList.toggle('fertigran')
+    
     boxFertigran.style.display = "none";
 }
 
@@ -126,7 +170,12 @@ function fertinor() {
     MG.classList.add("fill_svg");
     GO.classList.add("fill_svg");
     TO.classList.add("fill_svg");
+    if(boxFertinor.style.display == "block"){
+        return
+    }
     boxFertinor.style.display = "block";
+    var pinFlag = document.querySelector('.flag');
+    pinFlag.classList.toggle('fertinor')
 }
 
 function fertinorBox() {
@@ -143,6 +192,9 @@ function fertinorBox() {
     MG.classList.remove("fill_svg");
     GO.classList.remove("fill_svg");
     TO.classList.remove("fill_svg");
+    var pinFlag = document.querySelector('.flag');
+    pinFlag.classList.toggle('fertinor')
+    
     boxFertinor.style.display = "none";
 }
 
@@ -152,7 +204,12 @@ function piratini() {
     var boxPiratini = document.getElementById("boxPiratini");
     RS.classList.add("fill_svg");
     SC.classList.add("fill_svg");
+    if(boxPiratini.style.display == "block"){
+        return
+    }
     boxPiratini.style.display = "block";
+    var pinFlag = document.querySelector('.flag');
+    pinFlag.classList.toggle('piratini')
 }
 
 function piratiniBox() {
@@ -161,6 +218,9 @@ function piratiniBox() {
     var boxPiratini = document.getElementById("boxPiratini");
     RS.classList.remove("fill_svg");
     SC.classList.remove("fill_svg");
+    var pinFlag = document.querySelector('.flag');
+    pinFlag.classList.toggle('piratini')
+
     boxPiratini.style.display = "none";
 }
 
@@ -172,7 +232,12 @@ function sudeste() {
     ES.classList.add("fill_svg");
     RJ.classList.add("fill_svg");
     MG.classList.add("fill_svg");
+    if(boxSudeste.style.display == "block"){
+        return
+    }
     boxSudeste.style.display = "block";
+    var pinFlag = document.querySelector('.flag');
+    pinFlag.classList.toggle('sudeste')
 }
 
 function sudesteBox() {
@@ -183,6 +248,9 @@ function sudesteBox() {
     ES.classList.remove("fill_svg");
     RJ.classList.remove("fill_svg");
     MG.classList.remove("fill_svg");
+    var pinFlag = document.querySelector('.flag');
+    pinFlag.classList.toggle('sudeste')
+    
     boxSudeste.style.display = "none";
 }
 
@@ -192,7 +260,13 @@ function bandeirantes() {
     var boxBandeirantes = document.getElementById("boxBandeirantes");
     SP.classList.add("fill_svg");
     MS.classList.add("fill_svg");
+
+    if(boxBandeirantes.style.display == "block"){
+        return
+    }
     boxBandeirantes.style.display = "block";
+    var pinFlag = document.querySelector('.flag');
+    pinFlag.classList.toggle('bandeirantes')
 }
 
 function bandeirantesBox() {
@@ -201,6 +275,10 @@ function bandeirantesBox() {
     var boxBandeirantes = document.getElementById("boxBandeirantes");
     SP.classList.remove("fill_svg");
     MS.classList.remove("fill_svg");
+    
+    var pinFlag = document.querySelector('.flag');
+    pinFlag.classList.toggle('bandeirantes')
+    
     boxBandeirantes.style.display = "none";
 }
 
@@ -214,6 +292,11 @@ function nordeste() {
     MG.classList.add("fill_svg");
     GO.classList.add("fill_svg");
     TO.classList.add("fill_svg");
+    if(boxNordeste.style.display == "block"){
+        return
+    }
+    var pinnord = document.querySelector('.flag');
+    pinnord.classList.toggle('nordeste')
     boxNordeste.style.display = "block";
 }
 
@@ -227,6 +310,8 @@ function nordesteBox() {
     MG.classList.remove("fill_svg");
     GO.classList.remove("fill_svg");
     TO.classList.remove("fill_svg");
+    var pinnord = document.querySelector('.flag');
+    pinnord.classList.toggle('nordeste')
     boxNordeste.style.display = "none";
 }
 
@@ -244,8 +329,14 @@ function parana() {
     RO.classList.add("fill_svg");
     MS.classList.add("fill_svg");
     PARAGUAI.classList.add("fill_svg");
+    if(boxParana.style.display == "block"){
+        return
+    }
     boxParana.style.display = "block";
+    var pinFlag = document.querySelector('.flag');
+    pinFlag.classList.toggle('parana')
 }
+
 
 function paranaBox() {
     var SP = document.getElementById("SP");
@@ -261,5 +352,9 @@ function paranaBox() {
     RO.classList.remove("fill_svg");
     MS.classList.remove("fill_svg");
     PARAGUAI.classList.remove("fill_svg");
+    
+    
+    var pinFlag = document.querySelector('.flag');
     boxParana.style.display = "none";
+    pinFlag.classList.toggle('parana')
 }

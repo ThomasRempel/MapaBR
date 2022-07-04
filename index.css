@@ -5,13 +5,9 @@
     fill: #5A5A5A !important;
 }
 
-.pinnone {
-    display: none;
-}
 
-.mapasvg {
+svg {
     width: 100%;
-    margin:1000px 0;
 }
 
 .svg-icon {
@@ -25,14 +21,13 @@
     background: #fff;
     text-align: center;
     width: 190px;
-    height: max-content;
     box-shadow: 0px 0px 10px #333;
     padding: 20px;
     border-radius: 10px;
     /* posição */
     position: absolute;
-    top:1400px;
-    left:22%;
+    top:400px;
+    left:25%;
     
 }
 
@@ -49,4 +44,146 @@
 
 .cont_box {
     font-family: MyriadWebNormal;
+}
+.flag.nordeste ~ .pinmatogrosso, 
+.flag.nordeste ~ .pinfertinor, 
+.flag.nordeste ~ .pinparana, 
+.flag.nordeste ~ .pinmaranhao, 
+.flag.nordeste ~ .pinfertial, 
+.flag.nordeste ~ .pinfertine, 
+.flag.nordeste ~ .pinfertigran, 
+.flag.nordeste ~ .pinsudeste, 
+.flag.nordeste ~ .pinbandeirantes, 
+.flag.nordeste ~ .pinpiratini{
+    display: none;
+}
+
+.flag.parana ~ .pinmatogrosso, 
+.flag.parana ~ .pinfertinor, 
+.flag.parana ~ .pinnordeste, 
+.flag.parana ~ .pinmaranhao, 
+.flag.parana ~ .pinfertial, 
+.flag.parana ~ .pinfertine, 
+.flag.parana ~ .pinfertigran, 
+.flag.parana ~ .pinsudeste, 
+.flag.parana ~ .pinbandeirantes, 
+.flag.parana ~ .pinpiratini{
+    display: none;
+}
+
+.flag.bandeirantes ~ .pinmatogrosso, 
+.flag.bandeirantes ~ .pinfertinor, 
+.flag.bandeirantes ~ .pinnordeste, 
+.flag.bandeirantes ~ .pinmaranhao, 
+.flag.bandeirantes ~ .pinfertial, 
+.flag.bandeirantes ~ .pinfertine, 
+.flag.bandeirantes ~ .pinfertigran, 
+.flag.bandeirantes ~ .pinsudeste, 
+.flag.bandeirantes ~ .pinparana, 
+.flag.bandeirantes ~ .pinpiratini{
+    display: none;
+}
+
+.flag.sudeste ~ .pinmatogrosso, 
+.flag.sudeste ~ .pinfertinor, 
+.flag.sudeste ~ .pinnordeste, 
+.flag.sudeste ~ .pinmaranhao, 
+.flag.sudeste ~ .pinfertial, 
+.flag.sudeste ~ .pinfertine, 
+.flag.sudeste ~ .pinfertigran, 
+.flag.sudeste ~ .pinbandeirantes, 
+.flag.sudeste ~ .pinparana, 
+.flag.sudeste ~ .pinpiratini{
+    display: none;
+}
+
+.flag.piratini ~ .pinmatogrosso, 
+.flag.piratini ~ .pinfertinor, 
+.flag.piratini ~ .pinnordeste, 
+.flag.piratini ~ .pinmaranhao, 
+.flag.piratini ~ .pinfertial, 
+.flag.piratini ~ .pinfertine, 
+.flag.piratini ~ .pinfertigran, 
+.flag.piratini ~ .pinbandeirantes, 
+.flag.piratini ~ .pinparana, 
+.flag.piratini ~ .pinsudeste{
+    display: none;
+}
+
+.flag.fertinor ~ .pinmatogrosso, 
+.flag.fertinor ~ .pinpiratini, 
+.flag.fertinor ~ .pinnordeste, 
+.flag.fertinor ~ .pinmaranhao, 
+.flag.fertinor ~ .pinfertial, 
+.flag.fertinor ~ .pinfertine, 
+.flag.fertinor ~ .pinfertigran, 
+.flag.fertinor ~ .pinbandeirantes, 
+.flag.fertinor ~ .pinparana, 
+.flag.fertinor ~ .pinsudeste{
+    display: none;
+}
+
+.flag.fertigran ~ .pinmatogrosso, 
+.flag.fertigran ~ .pinpiratini, 
+.flag.fertigran ~ .pinnordeste, 
+.flag.fertigran ~ .pinmaranhao, 
+.flag.fertigran ~ .pinfertial, 
+.flag.fertigran ~ .pinfertine, 
+.flag.fertigran ~ .pinfertinor, 
+.flag.fertigran ~ .pinbandeirantes, 
+.flag.fertigran ~ .pinparana, 
+.flag.fertigran ~ .pinsudeste{
+    display: none;
+}
+
+.flag.matogrosso ~ .pinfertigran, 
+.flag.matogrosso ~ .pinpiratini, 
+.flag.matogrosso ~ .pinnordeste, 
+.flag.matogrosso ~ .pinmaranhao, 
+.flag.matogrosso ~ .pinfertial, 
+.flag.matogrosso ~ .pinfertine, 
+.flag.matogrosso ~ .pinfertinor, 
+.flag.matogrosso ~ .pinbandeirantes, 
+.flag.matogrosso ~ .pinparana, 
+.flag.matogrosso ~ .pinsudeste{
+    display: none;
+}
+
+.flag.fertial ~ .pinfertigran, 
+.flag.fertial ~ .pinpiratini, 
+.flag.fertial ~ .pinnordeste, 
+.flag.fertial ~ .pinmaranhao, 
+.flag.fertial ~ .pinmatogrosso, 
+.flag.fertial ~ .pinfertine, 
+.flag.fertial ~ .pinfertinor, 
+.flag.fertial ~ .pinbandeirantes, 
+.flag.fertial ~ .pinparana, 
+.flag.fertial ~ .pinsudeste{
+    display: none;
+}
+
+.flag.maranhao ~ .pinfertigran, 
+.flag.maranhao ~ .pinpiratini, 
+.flag.maranhao ~ .pinnordeste, 
+.flag.maranhao ~ .pinfertial, 
+.flag.maranhao ~ .pinmatogrosso, 
+.flag.maranhao ~ .pinfertine, 
+.flag.maranhao ~ .pinfertinor, 
+.flag.maranhao ~ .pinbandeirantes, 
+.flag.maranhao ~ .pinparana, 
+.flag.maranhao ~ .pinsudeste{
+    display: none;
+}
+
+.flag.fertine ~ .pinfertigran, 
+.flag.fertine ~ .pinpiratini, 
+.flag.fertine ~ .pinnordeste, 
+.flag.fertine ~ .pinfertial, 
+.flag.fertine ~ .pinmatogrosso, 
+.flag.fertine ~ .pinmaranhao, 
+.flag.fertine ~ .pinfertinor, 
+.flag.fertine ~ .pinbandeirantes, 
+.flag.fertine ~ .pinparana, 
+.flag.fertine ~ .pinsudeste{
+    display: none;
 }
