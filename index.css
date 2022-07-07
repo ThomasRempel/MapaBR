@@ -195,3 +195,9 @@ svg {
 .classe_nome_appear{
     display:block;
 }
+
+.cont_box{
+    font-size: 14;
+    font-family: 'MyriadWebNormal';
+    color: #333;
+}
